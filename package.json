@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-mobaxterm-cracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vuepress plugin to crack MobaXterm.",
   "scripts": {
     "release": "pnpm publish --access public"

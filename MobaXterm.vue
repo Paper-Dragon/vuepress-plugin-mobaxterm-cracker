@@ -30,7 +30,7 @@
 
 <script>
 import { fileSave } from 'browser-fs-access';
-import './lib/jszip.js';
+import JSZip from './lib/jszip.js';
 import { LicenseType, generateLicense } from './lib/mobaXtermGenerater.js';
 
 export default {
