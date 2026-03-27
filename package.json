@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-mobaxterm-cracker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A vuepress plugin to crack MobaXterm.",
   "scripts": {
     "release": "pnpm publish --access public"
@@ -18,9 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/Paper-Dragon/vuepress-plugin-mobaxterm-cracker.git"
   },
+  "peerDependencies": {
+    "vuepress": "^2.0.0-rc.27",
+    "@vuepress/client": "^2.0.0-rc.27"
+  },
   "dependencies": {
-    "@vuepress/client": "2.0.0-rc.26",
-    "@vuepress/helper": "2.0.0-rc.118",
     "browser-fs-access": "0.38.0"
   }
 }
